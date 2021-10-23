@@ -1,17 +1,17 @@
 Ejercicios Algoritmia
-Escriba un programa que pida al usuario ingresar la longitud de la línea y muestre de uno en uno lo siguiente:
+1.Escriba un programa que pida al usuario ingresar la longitud de la línea y muestre de uno en uno lo siguiente:
 
  longitud: 5
 
  +++++
-Escriba un programa que pida al usuario ingresar la longitud de la línea y dos caracteres; y muestre de uno en uno lo siguiente:
+2.Escriba un programa que pida al usuario ingresar la longitud de la línea y dos caracteres; y muestre de uno en uno lo siguiente:
 
  longitud: 5
  caracter1: -
  caracter2: +
 
  -+-+-
-Escriba un programa que pida al usuario ingresar la altura y el ancho de un rectángulo y lo dibuje utilizando asteriscos:
+3.Escriba un programa que pida al usuario ingresar la altura y el ancho de un rectángulo y lo dibuje utilizando asteriscos:
 
  Altura: 3
  Ancho: 5
@@ -19,7 +19,7 @@ Escriba un programa que pida al usuario ingresar la altura y el ancho de un rect
  *****
  *****
  *****
-Escriba un programa que dibuje el triángulo del tamaño indicado por el usuario de acuerdo al ejemplo:
+4.Escriba un programa que dibuje el triángulo del tamaño indicado por el usuario de acuerdo al ejemplo:
 
  Altura: 5
 
@@ -28,7 +28,7 @@ Escriba un programa que dibuje el triángulo del tamaño indicado por el usuario
  ***
  ****
  *****
-Escriba un programa que dibuje el hexágono del tamaño indicado por el usuario de acuerdo al ejemplo:
+5.Escriba un programa que dibuje el hexágono del tamaño indicado por el usuario de acuerdo al ejemplo:
 
  Lado: 4
 
@@ -39,17 +39,17 @@ Escriba un programa que dibuje el hexágono del tamaño indicado por el usuario 
   ++++++++
    ++++++
     ++++
-Escriba un programa que pida al usuario ingresar un usuario y una contraseña, y le indique si ha validado o no, debemos tener mínimo 5 usuarios en el Local Storage (cargados previamente por el programa, con formato a elegir por el alumno) y usarlos para saber si el usuario ha accedido o no.
+6.Escriba un programa que pida al usuario ingresar un usuario y una contraseña, y le indique si ha validado o no, debemos tener mínimo 5 usuarios en el Local Storage (cargados previamente por el programa, con formato a elegir por el alumno) y usarlos para saber si el usuario ha accedido o no.
 
-Ten precargado en un array 10 números e indica si uno pedido al usuario existe y en qué posición está.
+7.Ten precargado en un array 10 números e indica si uno pedido al usuario existe y en qué posición está.
 
-Ten precargado en un array 20 números y ordénalo.
+8.en precargado en un array 20 números y ordénalo.
 
-Crea un JSON que contenga la siguiente información de la manera que te parezca óptima:
+9.Crea un JSON que contenga la siguiente información de la manera que te parezca óptima:
 
 img
 
-Debes escribirlo en un fichero de texto con extensión ".json", no es necesario un programa asociado.
+10.Debes escribirlo en un fichero de texto con extensión ".json", no es necesario un programa asociado.
 
 Disponemos en la caja del siguiente dinero distribuido de la siguiente manera: 234,27 € (información que se debe cargar en el Local Storage)
 Billetes de 500€: 0

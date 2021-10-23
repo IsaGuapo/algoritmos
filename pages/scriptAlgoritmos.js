@@ -37,17 +37,52 @@ function print (num){
     } 
   print3(6,3);
 //4.Escriba un programa que dibuje el triángulo del tamaño indicado por el usuario de acuerdo al ejemplo:
-//1. definir un contador
-//contar los espacios vacios que hay. Cada linea tiene exactamente el valor de num, pero en cada linea restamos 1 asterisco
+
 let prinTriangulo=(num)=>{
   const icon= "+"
-  let resultado= ""
+  let resultado= " "
   
   for (let i=0; i<num; i++){
-      resultado=resultado+icon
-    
-    c
-  }
-      
-} 
-prinTriangulo(6);
+    for (let j=0; j<=i; j++){
+      resultado=resultado+icon 
+    }
+    console.log(resultado)
+    resultado=" "      
+  } 
+}
+prinTriangulo(5);
+/*5.Escriba un programa que dibuje el hexágono del tamaño indicado por el usuario de acuerdo al ejemplo:
+
+ Lado: 4
+
+    ++++
+   ++++++
+  ++++++++
+ ++++++++++
+  ++++++++
+   ++++++
+    ++++
+*/
+let prinhexagono=(num)=>{
+  const icon= "+"
+  let resultado= " "
+  
+  for (let i=1; i<num; i++){
+    for (let j=-1; j<=i; j++){
+      resultado=resultado+icon+("+") 
+    }
+    console.log(resultado)
+    resultado=" "      
+  } 
+  for (let i=num-1; i>0; i--){
+    for (let j=-1; j<=i; j++){
+      resultado=resultado+icon+("+") 
+    }
+    console.log(resultado)
+    resultado=" "      
+  } 
+}
+prinhexagono(5);
+
+// añadir: const hex=num+(num-1) // dentro del primer for :let blanck=(num-1)-i para sacar la primera fila
+//
