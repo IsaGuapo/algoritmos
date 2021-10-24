@@ -40,8 +40,16 @@ const usuarios=JSON.parse(localStorage.getItem("users"));
 console.log (usuarios[2].contraseña)
 
 //validacion de datos
-const validaForm=()=> {
+let userName=document.getElementById("nombre")
+let passwordC=document.getElementById("contraseña")
 
+const validaForm=()=> {
+   if(userName===user && passwordC===password) {
+        alert("Usuario correcto")
+   }
+   else{
+       alert(" Usuario incorrecto")
+   }
     
 }
 
